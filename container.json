@@ -1,0 +1,140 @@
+[
+
+    {
+        "container_id": "e3c60b9c-70f4-4481-bcb9-b83c0773a8cf",
+        "executor_id": "consume-cpu.33039d30-051b-11e7-b3d9-06481f5355f3",
+        "executor_name": "Command Executor (Task: consume-cpu.33039d30-051b-11e7-b3d9-06481f5355f3) (Command: sh -c 'sleep $(( RA...')",
+        "framework_id": "07b4a4aa-d0e0-4334-94ea-357b53129555-0001",
+        "source": "consume-cpu.33039d30-051b-11e7-b3d9-06481f5355f3",
+        "statistics": {
+            "cpus_limit": 1.1,
+            "cpus_nr_periods": 1964,
+            "cpus_nr_throttled": 2,
+            "cpus_system_time_secs": 109.05,
+            "cpus_throttled_time_secs": 0.133611957,
+            "cpus_user_time_secs": 56.28,
+            "mem_anon_bytes": 6012928,
+            "mem_cache_bytes": 0,
+            "mem_critical_pressure_counter": 0,
+            "mem_file_bytes": 0,
+            "mem_limit_bytes": 167772160,
+            "mem_low_pressure_counter": 0,
+            "mem_mapped_file_bytes": 0,
+            "mem_medium_pressure_counter": 0,
+            "mem_rss_bytes": 6012928,
+            "mem_swap_bytes": 0,
+            "mem_total_bytes": 7217152,
+            "mem_unevictable_bytes": 0,
+            "timestamp": 1489100254.97408
+        },
+        "status": {
+            "container_id": {
+                "value": "e3c60b9c-70f4-4481-bcb9-b83c0773a8cf"
+            },
+            "executor_pid": 6370
+        }
+    },
+    {
+        "container_id": "2c640dea-f92d-4c07-967b-b106a7ec8cb2",
+        "executor_id": "statsd-emitter.f0e9a8b8-0510-11e7-b3d9-06481f5355f3",
+        "executor_name": "Command Executor (Task: statsd-emitter.f0e9a8b8-0510-11e7-b3d9-06481f5355f3) (Command: sh -c '/opt/mesosph...')",
+        "framework_id": "07b4a4aa-d0e0-4334-94ea-357b53129555-0001",
+        "source": "statsd-emitter.f0e9a8b8-0510-11e7-b3d9-06481f5355f3",
+        "statistics": {
+            "cpus_limit": 0.2,
+            "cpus_nr_periods": 19391,
+            "cpus_nr_throttled": 3467,
+            "cpus_system_time_secs": 0.89,
+            "cpus_throttled_time_secs": 273.863991569,
+            "cpus_user_time_secs": 0.65,
+            "mem_anon_bytes": 8155136,
+            "mem_cache_bytes": 0,
+            "mem_critical_pressure_counter": 0,
+            "mem_file_bytes": 0,
+            "mem_limit_bytes": 167772160,
+            "mem_low_pressure_counter": 0,
+            "mem_mapped_file_bytes": 0,
+            "mem_medium_pressure_counter": 0,
+            "mem_rss_bytes": 8155136,
+            "mem_swap_bytes": 0,
+            "mem_total_bytes": 8966144,
+            "mem_unevictable_bytes": 0,
+            "timestamp": 1489100254.97929
+        },
+        "status": {
+            "container_id": {
+                "value": "2c640dea-f92d-4c07-967b-b106a7ec8cb2"
+            },
+            "executor_pid": 12825
+        }
+    },
+    {
+        "container_id": "bcadf4ac-e7b2-46a1-9257-fff5d4ef0b85",
+        "executor_id": "consume-cpu.14e1de82-050d-11e7-b3d9-06481f5355f3",
+        "executor_name": "Command Executor (Task: consume-cpu.14e1de82-050d-11e7-b3d9-06481f5355f3) (Command: sh -c 'sleep $(( RA...')",
+        "framework_id": "07b4a4aa-d0e0-4334-94ea-357b53129555-0001",
+        "source": "consume-cpu.14e1de82-050d-11e7-b3d9-06481f5355f3",
+        "statistics": {
+            "cpus_limit": 1.1,
+            "cpus_nr_periods": 62620,
+            "cpus_nr_throttled": 1,
+            "cpus_system_time_secs": 4071.07,
+            "cpus_throttled_time_secs": 0.033001017,
+            "cpus_user_time_secs": 2130.11,
+            "mem_anon_bytes": 6647808,
+            "mem_cache_bytes": 90112,
+            "mem_critical_pressure_counter": 0,
+            "mem_file_bytes": 90112,
+            "mem_limit_bytes": 167772160,
+            "mem_low_pressure_counter": 0,
+            "mem_mapped_file_bytes": 81920,
+            "mem_medium_pressure_counter": 0,
+            "mem_rss_bytes": 6647808,
+            "mem_swap_bytes": 0,
+            "mem_total_bytes": 7647232,
+            "mem_unevictable_bytes": 0,
+            "timestamp": 1489100254.98509
+        },
+        "status": {
+            "container_id": {
+                "value": "bcadf4ac-e7b2-46a1-9257-fff5d4ef0b85"
+            },
+            "executor_pid": 7379
+        }
+    },
+    {
+        "container_id": "633e541e-9a4c-49e1-b8b7-eb96d1dd8ffe",
+        "executor_id": "test-datadog-plugin.71a53bdf-050c-11e7-b3d9-06481f5355f3",
+        "executor_name": "Command Executor (Task: test-datadog-plugin.71a53bdf-050c-11e7-b3d9-06481f5355f3) (Command: sh -c 'chmod +x ./d...')",
+        "framework_id": "07b4a4aa-d0e0-4334-94ea-357b53129555-0001",
+        "source": "test-datadog-plugin.71a53bdf-050c-11e7-b3d9-06481f5355f3",
+        "statistics": {
+            "cpus_limit": 0.2,
+            "cpus_nr_periods": 27051,
+            "cpus_nr_throttled": 5480,
+            "cpus_system_time_secs": 19.95,
+            "cpus_throttled_time_secs": 411.193520683,
+            "cpus_user_time_secs": 45.28,
+            "mem_anon_bytes": 18001920,
+            "mem_cache_bytes": 73728,
+            "mem_critical_pressure_counter": 0,
+            "mem_file_bytes": 73728,
+            "mem_limit_bytes": 167772160,
+            "mem_low_pressure_counter": 0,
+            "mem_mapped_file_bytes": 0,
+            "mem_medium_pressure_counter": 0,
+            "mem_rss_bytes": 18001920,
+            "mem_swap_bytes": 0,
+            "mem_total_bytes": 19226624,
+            "mem_unevictable_bytes": 0,
+            "timestamp": 1489100254.9897
+        },
+        "status": {
+            "container_id": {
+                "value": "633e541e-9a4c-49e1-b8b7-eb96d1dd8ffe"
+            },
+            "executor_pid": 7063
+        }
+    }
+
+]
